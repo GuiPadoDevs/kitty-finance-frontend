@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Hello Kitty Red Bow -->
+  <defs>
+    <radialGradient id="bowGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF3355"/>
+      <stop offset="100%" stop-color="#D90026"/>
+    </radialGradient>
+    <linearGradient id="centerGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4D6D"/>
+      <stop offset="100%" stop-color="#C0001D"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Left Ribbon Wing -->
+  <path d="M48 50 C30 30, 8 32, 12 52 C15 68, 32 68, 48 52 Z" fill="url(#bowGlow)" stroke="#333333" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- Left Wing Inner Fold -->
+  <ellipse cx="28" cy="50" rx="6" ry="3.5" transform="rotate(-15 28 50)" fill="#B3001B"/>
+
+  <!-- Right Ribbon Wing -->
+  <path d="M52 50 C70 30, 92 32, 88 52 C85 68, 68 68, 52 52 Z" fill="url(#bowGlow)" stroke="#333333" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- Right Wing Inner Fold -->
+  <ellipse cx="72" cy="50" rx="6" ry="3.5" transform="rotate(15 72 50)" fill="#B3001B"/>
+
+  <!-- Center Knot -->
+  <ellipse cx="50" cy="50" rx="14" ry="12" fill="url(#centerGlow)" stroke="#333333" stroke-width="4.5"/>
+  <ellipse cx="46" cy="46" rx="4" ry="2.5" fill="#FFFFFF" opacity="0.6"/>
+</svg>
